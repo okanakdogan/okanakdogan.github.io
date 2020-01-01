@@ -12,11 +12,13 @@
     "check-pretty": "prettier -l {,src/**/}*.{js,jsx,json,css,scss}",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "yarn run lint:css && yarn run lint:js && yarn run check-pretty",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+	"deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.13.75",
     "gatsby-theme-amsterdam": "^0.1.2",
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },

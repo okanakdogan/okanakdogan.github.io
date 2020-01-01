@@ -29,4 +29,5 @@ module.exports = {
       options: {},
     },
   ],
+  pathPrefix: 'okanakdogan.github.io',
 }
