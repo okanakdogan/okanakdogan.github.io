@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Okan Akdogan&#39;s Blog</title>
-        <link>http://localhost:1313/post/</link>
+        <link>https://example.org/post/</link>
         <description>Recent content in Posts on Okan Akdogan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Okan Akdogan</copyright>
-        <lastBuildDate>Tue, 22 Jul 2025 23:42:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 22 Jul 2025 23:42:00 +0300</lastBuildDate><atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hello World</title>
-        <link>http://localhost:1313/p/hello-world/</link>
+        <link>https://example.org/p/hello-world/</link>
         <pubDate>Tue, 22 Jul 2025 23:42:00 +0300</pubDate>
         
-        <guid>http://localhost:1313/p/hello-world/</guid>
+        <guid>https://example.org/p/hello-world/</guid>
         <description>&lt;p&gt;Here my first post&lt;/p&gt;
 </description>
         </item>
