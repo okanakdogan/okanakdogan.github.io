@@ -11,6 +11,10 @@ copyright: "Okan Akdogan"
 #    googleAnalytics:
 #        id:
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 permalinks:
     post: /p/:slug/
     page: /:slug/
