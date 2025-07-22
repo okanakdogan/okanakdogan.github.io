@@ -1,0 +1,71 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: "Okan Akdogan's Blog"
+theme: "stack"
+copyright: "Okan Akdogan"
+
+# DefaultContentLanguage: tr
+
+#services:
+    # GA Tracking ID
+#    googleAnalytics:
+#        id:
+
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
+
+params:
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+
+    footer:
+        since: 2025
+        customText:
+
+    sidebar:
+        emoji: 🤔
+        subtitle: 
+        avatar:
+            enabled: true
+            local: true
+            src: img/ghpp.jpeg
+
+    widgets:
+        homepage:
+            # - type: search
+            # - type: archives
+            #   params:
+            #       limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
+        
+    # imageProcessing:
+    #     cover:
+    #         enabled: true
+    #     content:
+    #         enabled: true
+
+menu:
+    main: []
+        
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/okanakdogan
+          params:
+              icon: brand-github
+
+        # - identifier: twitter
+        #   name: Twitter
+        #   url: https://twitter.com
+        #   params:
+        #       icon: brand-twitter
