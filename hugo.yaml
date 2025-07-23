@@ -9,7 +9,7 @@ DefaultContentLanguage: tr
 services:
     # GA Tracking ID
    googleAnalytics:
-       id: "GTM-TZR4WVX6"
+       id: "G-VJKHRGKFK1"
 
 DefaultContentLanguage: en
 
