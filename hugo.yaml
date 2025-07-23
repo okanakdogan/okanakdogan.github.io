@@ -1,15 +1,29 @@
-baseURL: 'https://example.org/'
-languageCode: 'en-us'
+baseURL: 'https://okanakdogan.github.io/'
+languageCode: 'tr-tr'
 title: "Okan Akdogan's Blog"
 theme: "stack"
 copyright: "Okan Akdogan"
 
-# DefaultContentLanguage: tr
+DefaultContentLanguage: tr
 
-#services:
+services:
     # GA Tracking ID
-#    googleAnalytics:
-#        id:
+   googleAnalytics:
+       id: "GTM-TZR4WVX6"
+
+DefaultContentLanguage: en
+
+languages:
+    tr:
+        languageName: Turkish
+        title: Okan Akdogan Blog
+        weight: 1
+
+    en:
+        languageName: English
+        title: Okan Akdogan's Blog
+        weight: 2
+        
 
 caches:
   images:
@@ -67,6 +81,12 @@ menu:
           url: https://github.com/okanakdogan
           params:
               icon: brand-github
+
+        - identifier: email
+          name: E-mail
+          url: mailto:okanakdogan@live.com
+          params:
+              icon: messages
 
         # - identifier: twitter
         #   name: Twitter

@@ -1,0 +1,74 @@
+toggleMenu:
+    other: Menüyü Gizle
+
+darkMode:
+    other: Koyu Mod
+
+list:
+    page:
+        one: "{{ .Count }} makale"
+        other: "{{ .Count }} makale"
+
+    section:
+        other: Bölüm
+
+    subsection:
+        one: Alt bölüm
+        other: Alt bölümler
+
+article:
+    back:
+        other: Geri
+
+    tableOfContents:
+        other: İçerikler
+
+    relatedContent:
+        other: Alakalı içerikler
+
+    lastUpdatedOn:
+        other: Son güncelleme
+
+    readingTime:
+        one: "{{ .Count }} dk okuma süresi"
+        other: "{{ .Count }} dk okuma süresi"
+
+notFound:
+    title:
+        other: Bulunamadı
+
+    subtitle:
+        other: Aradığınız sayfa mevcut değil.
+
+widget:
+    archives:
+        title:
+            other: Arşiv
+
+        more:
+            other: Daha fazla
+
+    tagCloud:
+        title:
+            other: Etiketler
+
+    categoriesCloud:
+        title:
+            other: Kategoriler
+
+search:
+    title:
+        other: Arama
+
+    placeholder:
+        other: Bir şeyler yazın...
+
+    resultTitle:
+        other: "#PAGES_COUNT sayfa (#TIME_SECONDS saniye)"
+
+footer:
+    builtWith:
+        other: "{{ .Generator }} ile oluşturuldu."
+
+    designedBy:
+        other: "{{ .Theme }} teması {{ .DesignedBy }} tarafından tasarlandı"
