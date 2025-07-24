@@ -1,17 +1,15 @@
 baseURL: 'https://okanakdogan.github.io/'
-languageCode: 'tr-tr'
+# languageCode: 'tr-tr'
 title: "Okan Akdogan's Blog"
 theme: "stack"
 copyright: "Okan Akdogan"
 
-DefaultContentLanguage: tr
+DefaultContentLanguage: en
 
 services:
     # GA Tracking ID
    googleAnalytics:
        id: "G-VJKHRGKFK1"
-
-DefaultContentLanguage: en
 
 languages:
     tr:
